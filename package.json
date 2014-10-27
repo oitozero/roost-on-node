@@ -1,0 +1,30 @@
+{
+  "name": "roost-on-node",
+  "homepage": "https://github.com/danstever/roost-on-node",
+  "description": "Bringing the power of web push notifications by Roost (https://goroost.com), to Node.js.",
+  "keywords": [
+    "push notifications",
+    "web push"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Dan Stever",
+    "email": "dan@goroost.com",
+    "url": "https://goroost.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danstever/roost-on-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danstever/roost-on-node/issues"
+  },
+  "dependencies": {
+    "request": "2.45.0"
+  }
+}
