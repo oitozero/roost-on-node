@@ -53,7 +53,7 @@ Notifications consist of a headline of text, and a URL for a landing page. Messa
 	var params = {};
 	
 	params.msg = "My message to send";
-	params.url = "http://[URL to landing page][dot]com
+	params.url = "http://[URL to landing page][dot]com;
 
 	roost.sendNote(key, secret, params, function(data) {
 		//DO SOMETHING... Or not here.
