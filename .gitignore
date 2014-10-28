@@ -16,3 +16,7 @@ Thumbs.db
 ######################
 node_modules
 tests
+
+# Files #
+######################
+npm-debug.log
