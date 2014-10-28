@@ -1,10 +1,10 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'link', 'roost-web-push' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.32
-4 verbose install where,what [ '/usr/local/lib', [ 'roost-web-push' ] ]
-5 verbose cache add [ 'roost-web-push', null ]
-6 verbose cache add name=undefined spec="roost-web-push" args=["roost-web-push",null]
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
 7 verbose parsed url { protocol: null,
 7 verbose parsed url   slashes: null,
 7 verbose parsed url   auth: null,
@@ -14,70 +14,59 @@
 7 verbose parsed url   hash: null,
 7 verbose parsed url   search: null,
 7 verbose parsed url   query: null,
-7 verbose parsed url   pathname: 'roost-web-push',
-7 verbose parsed url   path: 'roost-web-push',
-7 verbose parsed url   href: 'roost-web-push' }
-8 silly lockFile f675f76c-roost-web-push roost-web-push
-9 verbose lock roost-web-push /Users/danstever/.npm/f675f76c-roost-web-push.lock
-10 silly lockFile f675f76c-roost-web-push roost-web-push
-11 silly lockFile f675f76c-roost-web-push roost-web-push
-12 verbose addNamed [ 'roost-web-push', '' ]
-13 verbose addNamed [ null, '*' ]
-14 silly lockFile 85139800-roost-web-push roost-web-push@
-15 verbose lock roost-web-push@ /Users/danstever/.npm/85139800-roost-web-push.lock
-16 silly addNameRange { name: 'roost-web-push', range: '*', hasData: false }
-17 verbose request where is /roost-web-push
-18 verbose request registry https://registry.npmjs.org/
-19 verbose request id 9cff5e8b73e9e99b
-20 verbose url raw /roost-web-push
-21 verbose url resolving [ 'https://registry.npmjs.org/', './roost-web-push' ]
-22 verbose url resolved https://registry.npmjs.org/roost-web-push
-23 verbose request where is https://registry.npmjs.org/roost-web-push
-24 info trying registry request attempt 1 at 16:26:03
-25 http GET https://registry.npmjs.org/roost-web-push
-26 http 404 https://registry.npmjs.org/roost-web-push
-27 verbose headers { date: 'Mon, 27 Oct 2014 20:26:03 GMT',
-27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-27 verbose headers   'content-type': 'application/json',
-27 verbose headers   'cache-control': 'max-age=0',
-27 verbose headers   'content-length': '52',
-27 verbose headers   'accept-ranges': 'bytes',
-27 verbose headers   via: '1.1 varnish',
-27 verbose headers   age: '0',
-27 verbose headers   'x-served-by': 'cache-ord1720-ORD',
-27 verbose headers   'x-cache': 'MISS',
-27 verbose headers   'x-cache-hits': '0',
-27 verbose headers   'x-timer': 'S1414441563.111457,VS0,VE77',
-27 verbose headers   'keep-alive': 'timeout=10, max=50',
-27 verbose headers   connection: 'Keep-Alive' }
-28 silly registry.get cb [ 404,
-28 silly registry.get   { date: 'Mon, 27 Oct 2014 20:26:03 GMT',
-28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-28 silly registry.get     'content-type': 'application/json',
-28 silly registry.get     'cache-control': 'max-age=0',
-28 silly registry.get     'content-length': '52',
-28 silly registry.get     'accept-ranges': 'bytes',
-28 silly registry.get     via: '1.1 varnish',
-28 silly registry.get     age: '0',
-28 silly registry.get     'x-served-by': 'cache-ord1720-ORD',
-28 silly registry.get     'x-cache': 'MISS',
-28 silly registry.get     'x-cache-hits': '0',
-28 silly registry.get     'x-timer': 'S1414441563.111457,VS0,VE77',
-28 silly registry.get     'keep-alive': 'timeout=10, max=50',
-28 silly registry.get     connection: 'Keep-Alive' } ]
-29 silly lockFile 85139800-roost-web-push roost-web-push@
-30 silly lockFile 85139800-roost-web-push roost-web-push@
-31 error 404 404 Not Found: roost-web-push
-31 error 404
-31 error 404 'roost-web-push' is not in the npm registry.
-31 error 404 You should bug the author to publish it
-31 error 404
-31 error 404 Note that you can also install from a
-31 error 404 tarball, folder, or http url, or git url.
-32 error System Darwin 13.4.0
-33 error command "node" "/usr/local/bin/npm" "link" "roost-web-push"
-34 error cwd /Users/danstever/sandbox/Roost/roost-on-node
-35 error node -v v0.10.32
-36 error npm -v 1.4.28
-37 error code E404
-38 verbose exit [ 1, true ]
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/danstever/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/Users/danstever/.npm/roost-web-push/1.0.0/package.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /Users/danstever/.npm/roost-web-push/1.0.0/package.tgz
+12 verbose folder .
+13 info prepublish roost-web-push@1.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/danstever/.npm/1f1177db-tar.lock
+16 silly lockFile 8fb715bf-roost-web-push-1-0-0-package-tgz tar:///Users/danstever/.npm/roost-web-push/1.0.0/package.tgz
+17 verbose lock tar:///Users/danstever/.npm/roost-web-push/1.0.0/package.tgz /Users/danstever/.npm/8fb715bf-roost-web-push-1-0-0-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 8fb715bf-roost-web-push-1-0-0-package-tgz tar:///Users/danstever/.npm/roost-web-push/1.0.0/package.tgz
+21 silly lockFile 8fb715bf-roost-web-push-1-0-0-package-tgz tar:///Users/danstever/.npm/roost-web-push/1.0.0/package.tgz
+22 silly lockFile fd707d0f-npm-roost-web-push-1-0-0-package /Users/danstever/.npm/roost-web-push/1.0.0/package
+23 verbose lock /Users/danstever/.npm/roost-web-push/1.0.0/package /Users/danstever/.npm/fd707d0f-npm-roost-web-push-1-0-0-package.lock
+24 silly lockFile fd707d0f-npm-roost-web-push-1-0-0-package /Users/danstever/.npm/roost-web-push/1.0.0/package
+25 silly lockFile fd707d0f-npm-roost-web-push-1-0-0-package /Users/danstever/.npm/roost-web-push/1.0.0/package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'roost-web-push',
+28 silly publish   homepage: 'https://github.com/danstever/roost-on-node',
+28 silly publish   description: 'Bringing the power of web push notifications by Roost (https://goroost.com), to Node.js.',
+28 silly publish   keywords: [ 'push notifications', 'web push' ],
+28 silly publish   version: '1.0.0',
+28 silly publish   author:
+28 silly publish    { name: 'Dan Stever',
+28 silly publish      email: 'dan@goroost.com',
+28 silly publish      url: 'https://goroost.com' },
+28 silly publish   license: 'MIT',
+28 silly publish   main: 'index.js',
+28 silly publish   scripts: { test: '' },
+28 silly publish   repository:
+28 silly publish    { type: 'git',
+28 silly publish      url: 'https://github.com/danstever/roost-on-node.git' },
+28 silly publish   bugs: { url: 'https://github.com/danstever/roost-on-node/issues' },
+28 silly publish   dependencies: { request: '2.45.0' },
+28 silly publish   readme: '# Roost API for node.js (OFFICIAL)\n\n[roost-web-push](https://github.com/danstever/roost-on-node) provides a few functions to integrate Web Push by Roost into any node.js app. Current functions return Roost credentials, send push notifications, and return metrics on previously sent notifications. All you need: _Login, Send, Report_.\n\n## Requirements\n\nYou can install roost-web-push and its dependencies with npm: `npm install roost-web-push`.\n\n- [node](http://nodejs.org/)\n- [request](hhttps://github.com/request/request)\n\nYou will also need a Roost account. (Available for free at [GoRoost.com](https://goroost.com).)\n\n## Getting started\n\nAny call to the Roost API (login is the exception) requires an API Key and Secret. These values can be obtained from the [Roost Dashboard](https://go.goroost.com/auth/dashboard) or by using the `Roost.login()` method and sending your _Roost User Name_ and _Roost Password_.\n\n### Login to Roost\n\n\tvar roost = require(\'roost-web-push\');\n\n\tvar user = [YOUR ROOST USER NAME];\n\tvar pass = [YOUR ROOST PASSWORD];\n\n\troost.login(user, pass, function(data) {\n\t\t//DO SOMETHING WITH LOGIN DATA\n\t    console.log(data);\n\t});\n\nThe return will be an array of configurations from Roost containing the configuration name, key, and secret. If failed, an error will be returned.\n\n\t{\n\t\t"success":true,\n\t\t"userID":123456,\n\t\t"apps":[\n\t\t\t{\n\t\t\t\t"name":"My Site",\n\t\t\t\t"secret":"1234567890abcdefg",\n\t\t\t\t"key":"1234567890abcdefg"\n\t\t\t}\n\t\t]\n\t}\t\n\n### Sending a Notification\n\nNotifications consist of a headline of text, and a URL for a landing page. Message and URL should be passed as an object. (Object.msg and Object.url respectively.)\n\n\tvar roost = require(\'roost-web-push\');\n\n\tvar key = [YOUR ROOST KEY];\n\tvar secret = [YOUR ROOST SECRET];\n\t\n\tvar params = {};\n\t\n\tparams.msg = "My message to send";\n\tparams.url = "http://[URL to landing page][dot]com\n\n\troost.sendNote(key, secret, params, function(data) {\n\t\t//DO SOMETHING... Or not here.\n\t    console.log(data);\n\t});\n\nReturn will be an array with success / failure and a message, along with `notification_id`. This ID corresponds to metrics returned with `getNotes`, and eventually can be used to query metrics on individual notifications. _(Look for future releases of this package)_.\n\t\n\t{\n\t\t"success":true,\n\t\t"message":"Push queued; will be sent to devices within the next few seconds.",\n\t\t"notification_id":1234567\n\t}\n\n### Get Notification Metrics\n\nNo application is complete without knowing how it is performing. Roost tracks metrics for individual notifications. The `roost.getNotes()` method returns information on the 10 most recent notifications. _(Future versions will support querying for individual notes, allowing count of returned notifications, and offset)_.\n\n\tvar roost = require(\'roost-web-push\');\n\t\n\tvar key = [YOUR ROOST KEY];\n\tvar secret = [YOUR ROOST SECRET];\n\t\n\tvar params = {};\n\t\n\troost.getNotes(key, secret, params, function(data) {\n\t\t//DO SOMETHING WITH NOTES METRICS\n\t    console.log(data);\n\t});\n\nReturn will be an object containing a _notifications_ array including `id`, `sent` _(date/time)_, `stats.reads`, `stats.sends`, `alert`, and `url`.\n\n\t{\n\t\t"notifications":[\n\t\t\t{"\n\t\t\t\tid":1111111,\n\t\t\t\t"sent":"2014-10-27T18:11:37Z",\n\t\t\t\t"stats":\n\t\t\t\t\t{\n\t\t\t\t\t\t"reads":15,\n\t\t\t\t\t\t"sends":150\n\t\t\t\t\t},\n\t\t\t\t"alert":"Breaking News: Apple Announces new iPhone",\n\t\t\t\t"url":"http://mysite[dot]com/apple-news"\n\t\t\t},\n\t\t\t{\n\t\t\t\t"id":2222222,\n\t\t\t\t"sent":"2014-10-24T20:55:39Z",\n\t\t\t\t"stats":\n\t\t\t\t\t{\n\t\t\t\t\t\t"reads":23,\n\t\t\t\t\t\t"sends":153\n\t\t\t\t\t},\n\t\t\t\t\t"alert":"How to tackle the hard problems",\n\t\t\t\t\t"url":"http://mysite[dot]com/something-hard"\n\t\t\t},\n\t\t\t...\n\t\t]\n\t}\n\n## Support / Requests / Feedback\n\nFor additional information, support, feedback, or for feature requests, email [support@goroost.com](mailto:support@goroost.com). We\'d like to hear from you.\n\n## Future Features\n\n- Add query parameters to the `roost.getNotes()` method.\n- Add _general_ Roost config stats method.\n- Provide easy way to include / inject roost.js script onto site',
+28 silly publish   readmeFilename: 'README.md',
+28 silly publish   gitHead: '452efd478f43ddc9b90efe95f1961419a620f1f2',
+28 silly publish   _id: 'roost-web-push@1.0.0',
+28 silly publish   _shasum: 'ceb0e6824d3ca34f3c978dad25701fae9109a25f',
+28 silly publish   _from: '.' }
+29 error need auth auth and email required for publishing
+29 error need auth You need to authorize this machine using `npm adduser`
+30 error System Darwin 13.4.0
+31 error command "node" "/usr/local/bin/npm" "publish"
+32 error cwd /Users/danstever/sandbox/Roost/roost-on-node
+33 error node -v v0.10.32
+34 error npm -v 1.4.28
+35 error code ENEEDAUTH
+36 verbose exit [ 1, true ]
