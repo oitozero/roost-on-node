@@ -1,10 +1,10 @@
 # Roost API for node.js (OFFICIAL)
 
-[roost-on-node](https://github.com/danstever/roost-on-node) provides a few functions to integrate Web Push by Roost into any node.js app. Current functions return Roost credentials, send push notifications, and return metrics on previously sent notifications. All you need: _Login, Send, Report_.
+[roost-web-push](https://github.com/danstever/roost-on-node) provides a few functions to integrate Web Push by Roost into any node.js app. Current functions return Roost credentials, send push notifications, and return metrics on previously sent notifications. All you need: _Login, Send, Report_.
 
 ## Requirements
 
-You can install roost-on-node and its dependencies with npm: `npm install roost-on-node`.
+You can install roost-web-push and its dependencies with npm: `npm install roost-web-push`.
 
 - [node](http://nodejs.org/)
 - [request](hhttps://github.com/request/request)
@@ -17,7 +17,7 @@ Any call to the Roost API (login is the exception) requires an API Key and Secre
 
 ### Login to Roost
 
-	var roost = require('roost-on-node');
+	var roost = require('roost-web-push');
 
 	var user = [YOUR ROOST USER NAME];
 	var pass = [YOUR ROOST PASSWORD];
@@ -45,7 +45,7 @@ The return will be an array of configurations from Roost containing the configur
 
 Notifications consist of a headline of text, and a URL for a landing page. Message and URL should be passed as an object. (Object.msg and Object.url respectively.)
 
-	var roost = require('roost-on-node');
+	var roost = require('roost-web-push');
 
 	var key = [YOUR ROOST KEY];
 	var secret = [YOUR ROOST SECRET];
@@ -72,7 +72,7 @@ Return will be an array with success / failure and a message, along with `notifi
 
 No application is complete without knowing how it is performing. Roost tracks metrics for individual notifications. The `roost.getNotes()` method returns information on the 10 most recent notifications. _(Future versions will support querying for individual notes, allowing count of returned notifications, and offset)_.
 
-	var roost = require('roost-on-node');
+	var roost = require('roost-web-push');
 	
 	var key = [YOUR ROOST KEY];
 	var secret = [YOUR ROOST SECRET];

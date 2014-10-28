@@ -1,5 +1,5 @@
 {
-  "name": "roost-on-node",
+  "name": "roost-web-push",
   "homepage": "https://github.com/danstever/roost-on-node",
   "description": "Bringing the power of web push notifications by Roost (https://goroost.com), to Node.js.",
   "keywords": [
